@@ -1,0 +1,11 @@
+ETU 1819 ; ETU 1892 ; ETU 1793
+projet 32H WEB S3
+
+navigateur : google
+taille ecran : 100%
+
+lien site web :
+
+lien github   : 
+
+lien TODO	  : https://docs.google.com/spreadsheets/d/1zC3e6m6Smz9ylM4HStxBnP-TA8Xo2VYZdDJO4VP8RVw/edit#gid=644731922

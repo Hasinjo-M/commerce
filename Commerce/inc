@@ -1,0 +1,21 @@
+function incrementString($s) {
+    $prefix = rtrim($s, '0123456789');
+    $suffix = substr($s, strlen($prefix));
+    if (is_numeric($suffix)) {
+        $num = intval($suffix);
+        $num++;
+        $incrementedSuffix = str_pad($num, strlen($suffix), '0', STR_PAD_LEFT);
+        return $prefix . $incrementedSuffix;
+    } else {
+        return $s;
+    }
+}
+
+// Exemple d'utilisation
+$s = "0001";
+$s = incrementString($s);
+echo $s;  // Affiche "0002"
+
+$s = "0009";
+$s = incrementString($s);
+echo $s;  // Affiche "0010"
